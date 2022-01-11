@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Social Media Icons</title>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="button">
+        <div class="icon">
+<i class="fab fa-facebook-f"></i></div>
+        <a href='https://www.facebook.com/profile.php?id=100068530733241'>
+<span>Facebook</span></a>
+      </div>
+<div class="button">
+        <div class="icon">
+<i class="fab fa-twitter"></i></div>
+  <a href='https://twitter.com/ElectronicsArs?s=08'>
+<span>Twitter</span></a>
+      </div>
+
+<div class="button">
+        <div class="icon">
+<i class="fab fa-linkedin"></i></div>
+  <a href='https://www.linkedin.com/in/sathish-kumar-858676213'>
+<span>Linkedin</span></a>
+      </div>
+<div class="button">
+        <div class="icon">
+<i class="fab fa-youtube"></i></div>
+  <a href='https://youtube.com/channel/UCqiz1kgoBsTc2WxGNlzCDlQ'>
+<span>YouTube</span></a>
+      </div>
+</div><br>
+  <div class="wrapper1">
+      <div class="box">
+        <div class="front-face">
+          <div class="icon">
+<i class="fas fa-phone"></i></div>
+         <!span> <!img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRc0vaRvdqD2aYZhmx7Ikwh7n-gT3i6mfsRyA&usqp=CAU"><!/span>
+          
+<span>Contact</span>
+        </div>
+<div class="back-face">
+          <span>Contact</span>
+          <p>
+            Email:
+            <br>arselectronicsworld@gmail.com
+  <br>arselectronicsworld@yahoo.com
+            <br>
+  <br>Mobile Number:
+            <br>+91 9842236692
+  <br>04343-236697</p>
+</div>
+</div>
+<div class="box">
+        <div class="front-face">
+          <div class="icon">
+<i class="fas fa-map-marker"></i></div>
+<span>Location</span>
+        </div>
+<div class="back-face">
+          <span>Location</span>
+          <p>
+            Address:
+            <br>
+            <br>ARS ELECTRONICS WORLD, 
+                    <br>CRS PLAZA,
+            <br>185,Bangalore main road,
+            <br>Krishnagiri-635001
+                     <br>Tamil Nadu.
+            <br>
+<a href="https://www.google.com/maps/place/ARS+Electronics+World/@12.5237011,78.2148792,17z/data=!3m1!4b1!4m5!3m4!1s0x3bac34bdbac33809:0x6b38fdaf26918312!8m2!3d12.5236959!4d78.2170679"><br>Click To Know The Location</a>
+            </p>
+</div>
+</div>
+
+</div>   
+    
+    
+    
+    
+    
+    
+    
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+
+.wrapper .button:nth-child(3):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+
+.wrapper .button:nth-child(3) span{
+  color: #333;
+}
+.wrapper .button:nth-child(4) span{
+  color: #ff0000;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: #f2f2f2;
+}
+.wrapper1{
+  display: grid;
+  margin: 200px 90px auto;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+@media (max-width: 700px) {
+  .wrapper1{
+    margin: 200px auto;
+  }
+}
+.wrapper1 .box{
+  width: 350px;
+  margin: 0 auto;
+  position: relative;
+  perspective: 1000px;
+}
+.wrapper1 .box .front-face{
+  background: #fff;
+  height: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
+  transition: all 0.5s ease;
+}
+.box .front-face .icon{
+  height: 80px;
+}
+.box .front-face .img {
+    height:20px;
+    width:10%;
+  }
+.box .front-face .icon i{
+  font-size: 65px;
+}
+.box .front-face span,
+.box .back-face span{
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .front-face .icon i,
+.box .front-face span{
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box .back-face{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 320px;
+  width: 100%;
+  padding: 30px;
+  color: #fff;
+  opacity: 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  transform: translateY(110px) rotateX(-90deg);
+  box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
+  transition: all 0.5s ease;
+}
+.box .back-face p{
+  margin-top: 10px;
+  text-align: justify;
+}
+.box:hover .back-face{
+  opacity: 1;
+  transform: rotateX(0deg);
+}
+.box:hover .front-face{
+  opacity: 0;
+  transform: translateY(-110px) rotateX(90deg);
+}
+
+
+
+
+
+</style>
+</body>
+</html>
